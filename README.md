@@ -52,24 +52,24 @@ The NovaCrypt system provides a command-line interface to perform cryptographic 
 # Example
 
 ## Encrypt Text:
-    ```plain
+    ```bash
     Enter SECURE_KEY(int): 12345
     Enter SALT(int): 10
     Enter MODE (1/2/31/32): 1
     Enter the content: Hello, World!
 ## Output:
-    ```plain
+    ```bash
     Encrypted Data: [encrypted text]
 
 ## Encrypt File:
-    ```plain
+    ```bash
     Enter SECURE_KEY(int): 12345
     Enter SALT(int): 10
     Enter MODE (1/2/31/32): 31
     Enter File Path for Encryption (Source): input.txt
     Enter File Path for Decryption (Destination): encrypted_output.txt
 ## Output:
-    ```plain
+    ```bash
     Encrypted data saved to: encrypted_output.txt
 
 
