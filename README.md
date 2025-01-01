@@ -34,7 +34,7 @@ NovaCrypt is a simple cryptographic library for encryption and decryption of tex
    ```
 3. **Run CMake to configure the project**:
    ```bash
-   cmake ..
+   cmake -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -G "MinGW Makefiles" ..
    ```
 4. **Build the project**:
    ```bash
@@ -42,7 +42,7 @@ NovaCrypt is a simple cryptographic library for encryption and decryption of tex
    ```
 5. **Run the executable**:
    ```bash
-   ./NovaCrypt
+   ./build/NovaCrypt
    ```
 
 # Usage
